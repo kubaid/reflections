@@ -6,7 +6,12 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 	It's an intermidiate point between these two. It helps transforming
-	a working directory into a repository. 
+	a working directory into a repository.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can use git diff and git diff --staged to show differences between
+	files in working directory, staging area and latest commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
